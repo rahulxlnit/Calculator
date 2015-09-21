@@ -28,14 +28,14 @@
 /* Begin PBXFileReference section */
 		FDECDA601BAFB1D1005FB2E8 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDECDA641BAFB1D1005FB2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDECDA651BAFB1D1005FB2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDECDA651BAFB1D1005FB2E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../Calculator/AppDelegate.swift; sourceTree = "<group>"; };
 		FDECDA671BAFB1D1005FB2E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDECDA6A1BAFB1D1005FB2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDECDA6C1BAFB1D1005FB2E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FDECDA6F1BAFB1D1005FB2E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FDECDA751BAFB1D1005FB2E8 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDECDA7A1BAFB1D1005FB2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDECDA7B1BAFB1D1005FB2E8 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		FDECDA7B1BAFB1D1005FB2E8 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalculatorTests.swift; path = CalculatorTests/CalculatorTests.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +77,8 @@
 		FDECDA621BAFB1D1005FB2E8 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				FDECDA651BAFB1D1005FB2E8 /* AppDelegate.swift */,
-				FDECDA671BAFB1D1005FB2E8 /* ViewController.swift */,
 				FDECDA691BAFB1D1005FB2E8 /* Main.storyboard */,
-				FDECDA6C1BAFB1D1005FB2E8 /* Images.xcassets */,
-				FDECDA6E1BAFB1D1005FB2E8 /* LaunchScreen.xib */,
+				FDECDA671BAFB1D1005FB2E8 /* ViewController.swift */,
 				FDECDA631BAFB1D1005FB2E8 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -90,6 +87,9 @@
 		FDECDA631BAFB1D1005FB2E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDECDA6C1BAFB1D1005FB2E8 /* Images.xcassets */,
+				FDECDA7B1BAFB1D1005FB2E8 /* CalculatorTests.swift */,
+				FDECDA6E1BAFB1D1005FB2E8 /* LaunchScreen.xib */,
 				FDECDA641BAFB1D1005FB2E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -98,7 +98,6 @@
 		FDECDA781BAFB1D1005FB2E8 /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				FDECDA7B1BAFB1D1005FB2E8 /* CalculatorTests.swift */,
 				FDECDA791BAFB1D1005FB2E8 /* Supporting Files */,
 			);
 			path = CalculatorTests;
@@ -107,6 +106,7 @@
 		FDECDA791BAFB1D1005FB2E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDECDA651BAFB1D1005FB2E8 /* AppDelegate.swift */,
 				FDECDA7A1BAFB1D1005FB2E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
